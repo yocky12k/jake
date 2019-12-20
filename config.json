@@ -1,0 +1,46 @@
+
+{
+
+ "Account": {
+     "Username": "jaya_andrea",
+     "Password": "okgoogle"
+     },
+ "Target Profit": "100",
+ "Target Win": "100000.00000000",
+ "Lose Target": "0.0000",
+ "Interval": "0",
+ "Config": [{
+
+     "Name Bet Set": "Mining Tester",
+     "Base Bet": "0.001",
+     "Max Bet": "OFF",
+     "Chance": "49",
+     "Random Chance": {
+          "Toggle": "ON",
+          "Min": "45",
+          "Max": "49"
+        },
+     "Bet": {
+          "Bet": "Hi",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose": "3",
+              "If Win": "1"
+            }
+        },
+     "If Win": "0.75",
+     "If Lose": "1.55",
+     "Reset If Win": "1",
+     "Reset If Profit": "2",
+     "Interval": "0"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "Off",
+       "If Balance": "xxxx",
+       "Wallet Address": "xxxx",
+       "Amount": "xxxx"
+      },
+  "User-Agent": "Android Phone / Chrome 61 [Mobile]: Mozilla/5.0 (Linux; Android 12.5; Marvel Xcore7 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36"
+
+}
